@@ -5,5 +5,5 @@ app.get('/api', (req, res) => {
   res.status(200).json({api: 'version 1'})
 })
 
-app.listen(3001, () => console.log('server started'))
+app.listen(3000, () => console.log('server started'))
 
